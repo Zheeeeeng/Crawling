@@ -27,7 +27,7 @@ def init_driver():
             service = Service(executable_path=chromedriver_path)
             driver = webdriver.Chrome(service=service, options=chrome_options)
             return driver
-    #service = Service(executable_path=r"C:\Users\郑慧琳\.cache\selenium\chromedriver\win64\134.0.6998.178/chromedriver.exe")
+   
     #driver = webdriver.Chrome(service=service)
     #return driver
 
